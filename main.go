@@ -9,6 +9,7 @@ import (
 
 func main() {
 	ch1.Echo1()
-	fmt.Println(ch1.Echo2(os.Args))
+	ch1.Echo2(os.Args)
+	ch1.Echo4(os.Args)
 	fmt.Println(ch1.Echo3(os.Args))
 }
